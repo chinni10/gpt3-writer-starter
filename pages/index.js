@@ -17,10 +17,6 @@ const Home = () => {
             <h2>insert your subtitle here</h2>
           </div>
         </div>
-        {/* This is the code I added*/}
-        <div className="prompt-container">
-          <textarea placeholder="start typing here" className="prompt-box" />
-        </div>
       </div>
       <div className="badge-container grow">
         <a
@@ -36,4 +32,6 @@ const Home = () => {
       </div>
     </div>
   );
-     
+};
+
+export default Home;
