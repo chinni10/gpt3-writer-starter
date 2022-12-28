@@ -17,6 +17,26 @@ const Home = () => {
             <h2>insert your subtitle here</h2>
           </div>
         </div>
+        <div className="prompt-container">
+          <textarea placeholder="start typing here" className="prompt-box" />
+        </div>
+      </div>
+      <div className="badge-container grow">
+        <a
+          href="https://buildspace.so/builds/ai-writer"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="badge">
+            <Image src={buildspaceLogo} alt="buildspace logo" />
+            <p>build with buildspace</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  );
+};
+
       </div>
       <div className="badge-container grow">
         <a
