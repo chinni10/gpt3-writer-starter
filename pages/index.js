@@ -31,16 +31,15 @@ const Home = () => {
             onChange={onUserChangedText}
           />
           <div className="prompt-buttons">
-    <a className="generate-button" onClick={null}>
-      <div className="generate">
-        <p>Generate</p>
-      </div>
-    </a>
-  </div>
-</div>
+            <a className="generate-button" onClick={null}>
+              <div className="generate">
+                <p>Generate</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-      
+      <div className="badge-container grow">
         <a
           href="https://buildspace.so/builds/ai-writer"
           target="_blank"
@@ -52,7 +51,7 @@ const Home = () => {
           </div>
         </a>
       </div>
-    
+    </div>
   );
 };
 
