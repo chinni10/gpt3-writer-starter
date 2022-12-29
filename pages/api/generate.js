@@ -9,7 +9,7 @@ const basePromptPrefix = "";
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
-
+  console.log(process.env.OPENAI_API_KEY);
   const baseCompletion = await openai.createCompletion({
     model: "text-davinci-003",
     prompt: `${basePromptPrefix}${req.body.userInput}`,
