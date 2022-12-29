@@ -17,10 +17,12 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>hi</h1>
+            <h1>Roast anyone!</h1>
           </div>
           <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
+            <h2>
+              I can generate any roast to flame your fam, friends, and enemies.
+            </h2>
           </div>
         </div>
         <div className="prompt-container">
