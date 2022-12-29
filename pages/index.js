@@ -52,7 +52,7 @@ const Home = () => {
           </div>
         </a>
       </div>
-    </div>
+    
   );
 };
 
@@ -67,6 +67,6 @@ const Home = () => {
       </div>
     </a>
   </div>
-</div>;
+</div>
 
 export default Home;
