@@ -28,8 +28,7 @@ const Home = () => {
             placeholder="start typing here"
             className="prompt-box"
             value={userInput}
-            on
-            change={onUserChangedText}
+            onChange={onUserChangedText}
           />
         </div>
       </div>
