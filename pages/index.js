@@ -44,21 +44,31 @@ const Home = () => {
           </div>
           <div className="header-subtitle">
             <h2>
-              I can generate any roast to flame your fam, friends, and enemies.
+              I can generate any roast to flame your fam, friends, and enemies-
+              with a poem.
             </h2>
           </div>
         </div>
         <div className="prompt-container">
           <textarea
-            placeholder="start typing here"
+            placeholder="Enter a person along with a few traits that go with him/her"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
           />
           <div className="prompt-buttons">
-            <a className="generate-button" onClick={callGenerateEndpoint}>
+            <a
+              className={
+                isGenerating ? "generate-button loading" : "generate-button"
+              }
+              onClick={callGenerateEndpoint}
+            >
               <div className="generate">
-                <p>Generate</p>
+                {isGenerating ? (
+                  <span className="loader"></span>
+                ) : (
+                  <p>Generate</p>
+                )}
               </div>
             </a>
           </div>
