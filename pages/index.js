@@ -39,11 +39,11 @@ const Home = () => {
 
       </div>
       <div className="badge-container grow">
-        <a
+        <a>
           href="https://buildspace.so/builds/ai-writer"
           target="_blank"
           rel="noreferrer"
-        >
+        
           <div className="badge">
             <Image src={buildspaceLogo} alt="buildspace logo" />
             <p>build with buildspace</p>
