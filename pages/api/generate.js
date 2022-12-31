@@ -23,7 +23,7 @@ const generateAction = async (req, res) => {
 
   const basePromptOutput = baseCompletion.data.choices.pop();
   const secondPrompt = `
-  Take the roasts made below and turn it into a poem in the style of Gordon Ramsay.
+  Take the roasts made below and turn it into a very insulting poem in the style of Gordon Ramsay.
 
   Person: ${req.body.userInput}
 
